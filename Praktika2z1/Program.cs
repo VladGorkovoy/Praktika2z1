@@ -13,7 +13,7 @@ namespace Praktika2z1
     static string s = "";
     static Exception ex = new Exception();
     static object[] types = { a, b, c, d, e, s, ex };
-
+    
     public static object o { get; private set; }
 
     static void Main()
@@ -31,3 +31,4 @@ namespace Praktika2z1
   }
   
 }
+
